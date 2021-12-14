@@ -1,6 +1,7 @@
 import random
 
 def Perform(activity):
+
     #
     #Do the activity
     #
