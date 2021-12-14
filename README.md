@@ -7,16 +7,20 @@ def Perform(activity):
     #
 
 def Relax():
+
     activities = ['Coding', 'Football'] 
     Perform(random.choice(activities)) 
     
 def Chores(to_do_list):
+
     Perform(to_do_list[0])
     del to_do_list[0]
     
 
 while True:
+
     if len(to_do_list) == 0:
+
         Relax() 
     else:
         Chores(to_do_list)
